@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: #ff7c44;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+}
+
+.btn-lg{
+    text-decoration: none;
+    margin: .4rem;
+    background-color: #eec640;
+    color: black;
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.nav-link{
+    font-size: 2rem;
+    color: #ffa0c1;
+    background-color: #eec640;
+}
+.btn-lg:hover{
+    background-color: rgb(214, 213, 213);
+    color: black;
+    opacity: 90%;
+}
+.logo{
+height:17vh;
+}
+.text-pink{
+    color:#f5387a
+}
+main{
+    min-height: 75vh;
+    background-image: url(../assets/fondo.png);
+    background-size: contain;
+}
+.banner{
+    height: 35vh;
+    background-image: url(../assets/perros-banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.filtro-prueba{
+    display: flex;
+    justify-content: space-around;
+}
+.filtros{
+    background-color: #ffda60;
+}
+.btn-filtro{
+    min-width: 5rem;
+    height: 4rem;
+}
+.btn-pink{
+    background-color: #ffa0c1;
+}
+.btn-pink:hover{
+    background-color: #f783ac;
+}
+
+i{
+    font-size: 3rem;
+}
+.grilla-jugueteria{
+    padding: 1rem;
+}
+#footer-container{
+    min-height: 10vh ;
+    background-color: #eec640;
+}
+
+#formulario{
+    background-color: #eec640;
+}
+
+.table-productos{
+    display:flex;
+}
+.table-productos img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+}
+.table_cantidad input{
+border: none;
+outline: 0; 
+font-size: 16px;
+font-weight: 800;
+
+background-color: whitesmoke;
+}
+
+
+.alert{
+    z-index: 100;
+}
+.hide,.remove{
+    display: none;
+}
+
+@media screen and (max-width: 1000px){#navbarOffcanvasLg {
+    background-color:rgb(215, 215, 215);
+    opacity: 90%;
+    width: 30vh;
+    }
+} 
+
+.carrousel-ctn{
+    min-height: 60vh;
+
+}
+.card{
+    height:30rem;
+}
+.card-img-top{
+    max-height: 40%;
+    width: 100%;
+    object-fit: cover; 
+}
+.card-body{
+    min-height: 35%;
+    max-height: 35%;
+}
+.card-footer{
+    max-height: 25%;
+}
+
+.slide img{
+    height: 80vh;
+    object-fit:cover;
+
+}
+.title{
+    font-family: 'Luckiest Guy', cursive;
+    text-align: center;
+    font-size: 4rem;
+    color: #f783ac;
+    text-shadow: 3px 3px #ffda60;
+}
+.subtitle{
+    
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #ffda60;
+    text-shadow: 2px 1px #f783ac;
+}
+.negrita{
+    font-weight: 800;
+}
+h4{
+    font-size: 2rem;
+    color: white;
+    object-fit: cover;
+}
+.index-map{
+    padding: 1rem;
+    min-height: 20vh; 
+    max-width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+
+    margin: 1rem 1rem;
+    flex-direction: column;
+    background-color: #ffa0c1;
+}
+.h4-map{
+    text-align: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+.conteiner-map{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+}
+
+li a{
+    text-decoration: none;
+}
+
+.ocultar-boton{
+    display: none;
+}
+
+#boton-enviado:hover{
+    cursor: default;
+}
+
+
+.bi{
+    font-size: 2rem;
+}
+@media screen and (max-width: 1000px){#navbarOffcanvasLg {
+    background-color:rgb(215, 215, 215);
+    opacity: 90%;
+    width: 30vh;
+    }
+}
